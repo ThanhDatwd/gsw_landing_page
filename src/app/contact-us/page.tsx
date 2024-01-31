@@ -20,7 +20,7 @@ const PageContact = () => {
           height: "100vh",
         }}
       >
-        Contact-page
+        Contact-page 
       </div>
     </DefaultLayout>
   );
