@@ -52,10 +52,10 @@ export const NewsLetterSection = () => {
                   <img className="w-[70px] h-[70px] bg-white rounded-[50%]" src={`${getStaticURL()}/assets/images/signature.png`} alt="" />
                   <div className="flex flex-col">
                     <span className="text-[22px] font-medium">
-                      Tú Uyên (Jade)
+                      Huỳnh Tân Khoa 
                     </span>
                     <span className="text-[#A9AFC3]">
-                      Founder at Golden Sea Studio - Mytech Company
+                      Founder at Green Software Studio - Mytech Company
                     </span>
                   </div>
                 </div>

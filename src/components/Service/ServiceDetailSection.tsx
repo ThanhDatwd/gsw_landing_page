@@ -177,7 +177,7 @@ export const ServiceDetailSection = () => {
                   <span className="text-white text-[24px]">Newletter</span>
                   <div className="flex relative ">
                     <input
-                      className="w-full outline-none border-b border-b-[#3A3F50] bg-transparent pb-4"
+                      className="w-full outline-none border-b text-[#fff] border-b-[#3A3F50] bg-transparent pb-4"
                       type="text"
                       placeholder="Email"
                     />

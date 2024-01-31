@@ -47,7 +47,7 @@ export const Footer = () => {
           <ul>
             <li className="text-[#A9AFC3]  font-normal py-1">10334586570</li>
             <li className="text-[#A9AFC3]  font-normal py-1">
-              goldenseavt@gmail.com
+              greensoftware@gmail.com
             </li>
           </ul>
         </div>

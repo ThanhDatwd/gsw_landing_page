@@ -20,7 +20,7 @@ export const HeroSection = () => {
                     </h1>
                     <div className="w-full">
                     <span className="md:text-[18px] 2xl:text-[22px] text-[#A9AFC3]">
-                      At Golden Sea Studio, we appreciate passion, enthusiasm,
+                      At Green Software Studio, we appreciate passion, enthusiasm,
                       creativeness and encourage every individuals to develop
                       step by step, from good to great.
                     </span>
