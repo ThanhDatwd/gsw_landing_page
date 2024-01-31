@@ -17,16 +17,16 @@ export const CaseDetailSection = () => {
         <div className="relative h-full w-full  pt-[80px]  bg-[#191c26] ">
           <div className="w-full flex items-center justify-end py-6 xs:px-5 lg:px-14">
             <div className="flex items-center gap-5 text-[#A9AFC3]">
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Home
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Case
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Case detail
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3] "></div>
+              <span>Home</span>
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
+              <span>Case</span>
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
+              <span>Case detail</span>
             </div>
           </div>
-          <div className=" h-full relative w-[1080px] max-w-full mx-auto pb-[120px] flex flex-col justify-end gap-16">
-            <div className="flex items-end flex-wrap  px-5 lg:px-0">
+          <div className=" h-full relative w-[1080px] px-5 lg:px-0 max-w-full mx-auto pb-[120px] flex flex-col justify-end gap-16">
+            <div className="flex items-end flex-wrap  ">
               <div className="w-full lg:w-1/2 flex-1 flex flex-col gap-5">
                 <div className="flex items-center gap-5 text-[#A9AFC3]">
                   <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
@@ -81,8 +81,8 @@ export const CaseDetailSection = () => {
               </div>
             </div>
             <div className="grid grid-cols-12">
-              <div className="col-span-2"></div>
-              <div className="col-span-10 flex flex-col gap-8">
+              <div className="lg:col-span-2"></div>
+              <div className="col-span-12 lg:col-span-10 flex flex-col gap-8">
                 <div className="flex flex-col gap-4">
                   <span className="text-[22px] font-medium text-white">
                     About project
@@ -97,7 +97,7 @@ export const CaseDetailSection = () => {
                     </span>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 text-[18px] py-10 border-y border-y-[#3A3F50]">
+                <div className="grid grid-cols-1 lg:grid-cols-2 text-[18px] py-10 border-y border-y-[#3A3F50]">
                   <div className="">
                     <div className="flex gap-4 py-2">
                       <strong className="text-white ">Client:</strong>
@@ -105,17 +105,17 @@ export const CaseDetailSection = () => {
                     </div>
                     <div className="flex gap-4 py-2">
                       <strong className="text-white ">Category:</strong>
-                      <span className="text-[#A9AFC3]">Private</span>
+                      <span className="text-[#A9AFC3]">Web design</span>
                     </div>
                   </div>
                   <div>
                     <div className="flex gap-4 py-2">
                       <strong className="text-white ">Start date:</strong>
-                      <span className="text-[#A9AFC3]">Private</span>
+                      <span className="text-[#A9AFC3]">2023</span>
                     </div>
                     <div className="flex gap-4 py-2">
                       <strong className="text-white ">Finish date:</strong>
-                      <span className="text-[#A9AFC3]">Private</span>
+                      <span className="text-[#A9AFC3]">2024</span>
                     </div>
                   </div>
                 </div>

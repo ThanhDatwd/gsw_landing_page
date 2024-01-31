@@ -11,12 +11,12 @@ export const ServiceDetailSection = () => {
         <div className="relative h-full w-full  pt-[80px]  bg-[#191C26] ">
           <div className="w-full flex items-center justify-end py-6 xs:px-5 lg:px-14">
             <div className="flex items-center gap-5 text-[#A9AFC3]">
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Home
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Services
-              <div className="w-[60px] h-[1px] bg-[#A9AFC3] "></div>
-              Services detail
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
+              <span>Home</span>
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
+              <span>Services</span>
+              <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
+              <span>Services detail</span>
             </div>
           </div>
           <div className="absolute top-0 right-0 w-1/4 h-full">
