@@ -1,4 +1,4 @@
-export const getStaticURL = () => process.env.NEXT_PUBLIC_STATIC_URL;
+export const getStaticURL = () =>"https://greensoftware-seven.vercel.app"
 export const OptionsLanguage = [
   {
     label: "English",
