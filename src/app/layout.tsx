@@ -6,7 +6,7 @@ import "../styles/index.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "XPoker",
+  title: "Green Software",
 };
 export default function RootLayout({
   children,
