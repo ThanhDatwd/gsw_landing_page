@@ -10,21 +10,17 @@ import { NextSeo } from "next-seo";
 
 export const metadata: Metadata = {
   title: "Green Software",
-  description: ` At Green Software, we appreciate passion, enthusiasm,
-  creativeness and encourage every individuals to develop
-  step by step, from good to great.`,
+  description: `At Green Software, we appreciate passion, enthusiasm, creativeness and encourage every individuals to develop step by step, from good to great.`,
   openGraph: {
     title: "Green Software",
-    description: ` At Green Software, we appreciate passion, enthusiasm,
-    creativeness and encourage every individuals to develop
-    step by step, from good to great.`,
+    description: ` At Green Software, we appreciate passion, enthusiasm, creativeness and encourage every individuals to develop step by step, from good to great.`,
     url: `${getStaticURL()}`,
-    siteName: "Next.js",
+    siteName: "Green Software",
     images: [
       {
-        url: `${getStaticURL()}/assets/images/logo.svg`, // Must be an absolute URL
-        width: 800,
-        height: 600,
+        url: `${getStaticURL()}/assets/images/seo_logo.png`, // Must be an absolute URL
+        width: 600,
+        height: 400,
         alt: "Logo Green Software",
       },
     ],
@@ -42,26 +38,22 @@ export default function RootLayout({
       <Head>
         <NextSeo
           title="Green Software"
-          description=" At Green Software, we appreciate passion, enthusiasm,
-          creativeness and encourage every individuals to develop
-          step by step, from good to great."
+          description=" At Green Software, we appreciate passion, enthusiasm, creativeness and encourage every individuals to develop step by step, from good to great."
           canonical={`${getStaticURL()}`}
           openGraph={{
             url: `${getStaticURL()}`,
             title: "Green Software",
-            description: ` At Green Software, we appreciate passion, enthusiasm,
-              creativeness and encourage every individuals to develop
-              step by step, from good to great.`,
+            description: ` At Green Software, we appreciate passion, enthusiasm, creativeness and encourage every individuals to develop step by step, from good to great.`,
             images: [
               {
-                url: `${getStaticURL()}/assets/images/logo.svg`,
-                width: 800,
-                height: 600,
+                url: `${getStaticURL()}/assets/images/seo_logo.png`,
+                width: 600,
+                height: 400,
                 alt: "Banner Green Software",
-                type: "image/svg",
+                type: "image/png",
               },
             ],
-            siteName: "Đại Việt Sử Ký",
+            siteName: "Green Software",
           }}
         />
       </Head>
