@@ -55,7 +55,7 @@ export const NewsLetterSection = () => {
                       Huỳnh Tân Khoa 
                     </span>
                     <span className="text-[#A9AFC3]">
-                      Founder at Green Software Studio - Mytech Company
+                      Founder at Green Software
                     </span>
                   </div>
                 </div>

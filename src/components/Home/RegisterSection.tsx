@@ -28,8 +28,8 @@ export const RegisterSection = () => {
                       <span>Get a Free</span>
                       <span>Consultation</span>
                     </h1>
-                    <div className="w-full">
-                      <span className="md:text-[18px] 2xl:text-[22px] text-[#A9AFC3]">
+                    <div className="w-2/3">
+                      <span className="md:text-[18px] 2xl:text-[22px] text-[#A9AFC3] ">
                         We always try to implement our creative ideas at the
                         highest level. Tell us about your project and we will
                         make it work.

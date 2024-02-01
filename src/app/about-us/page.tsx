@@ -1,4 +1,6 @@
 "use client";
+import { AboutUsSection } from "@/components/AboutUs/AboutUsSection";
+import { FriendlyTeamSection } from "@/components/AboutUs/FriendlyTeam";
 import { NewsLetterSection } from "@/components/Home/NewsLetterSection";
 import { RegisterSection } from "@/components/Home/RegisterSection";
 import { AllServiceSection } from "@/components/Service/AllSerrviceSection";
@@ -8,7 +10,7 @@ import { useTheme } from "@/hooks/useTheme";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-export default function ServicePage() {
+export default function AboutUsPage() {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const [isScroll, setIsScroll] = useState(false);
@@ -35,9 +37,10 @@ export default function ServicePage() {
       headerStyle={`${!isScroll && "bg-[transparent] py-4 shadow-none"}`}
     >
      
-      <AllServiceSection />
-      <RegisterSection />
+      <AboutUsSection />
+      <FriendlyTeamSection/>
       <PartnerSection/>
+      <RegisterSection />
       <NewsLetterSection />
     </DefaultLayout>
   );

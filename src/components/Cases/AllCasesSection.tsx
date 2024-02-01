@@ -2,9 +2,14 @@
 import { getStaticURL } from "@/utils/constants";
 import { url } from "inspector";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import React from "react";
 
 export const AllCasesSection = () => {
+  const searchParams = useSearchParams();
+
+  const tab = searchParams.get("tab");
+  console.log('this tab',tab)
   return (
     <>
       <div className="flex ">
@@ -39,56 +44,93 @@ export const AllCasesSection = () => {
               </div>
             </div>
             <div className="flex gap-10">
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase ">
+              <Link
+                href={"/cases?tab=all"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "all" || tab === null
+                    ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 All
-              </div>
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase">
+              </Link>
+              <Link
+                href={"/cases?tab=ui-ux"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "ui-ux" ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 UI/UX and Brand
-              </div>
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase">
+              </Link>
+              <Link
+                href={"/cases?tab=apps"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "apps" ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 Apps
-              </div>
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase">
+              </Link>
+              <Link
+                href={"/cases?tab=seo-smm"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "seo-smm" ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 SEO & SMM
-              </div>
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase">
+              </Link>
+              <Link
+                href={"/cases?tab=e-commerce"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "e-commerce" ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 E-commerce
-              </div>
-              <div className="w-fit py-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase">
+              </Link>
+              <Link
+                href={"/cases?tab=marketing"}
+                className={`uppercase tracking-wider relative block py-2 whitespace-nowrap text-start text-[16px] hover:text-[#DBB070] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100  ${
+                  tab === "marketing" ? "after:scale-x-100 after:border-[#DBB070] text-[#DBB070]"
+                    : "text-[#FFF]"
+                }   hover:after:border-[#DBB070] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              >
                 marketing
-              </div>
+              </Link>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3">
               <Link href={"/cases/game"}>
                 <div
-                  className="aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                  style={{
-                    backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
-                  }}
+                  className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
+                  // }}
                 ></div>
               </Link>
               <Link href={"/cases/game"}>
                 <div
-                  className="aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                  style={{
-                    backgroundImage: `url('${getStaticURL()}/assets/images/game_3.png')`,
-                  }}
+                  className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_3.png')`,
+                  // }}
                 ></div>
               </Link>
               <Link href={"/cases/game"}>
                 <div
-                  className="aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                  style={{
-                    backgroundImage: `url('${getStaticURL()}/assets/images/game_2.png')`,
-                  }}
+                  className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_2.png')`,
+                  // }}
                 ></div>
               </Link>
               <Link href={"/cases/game"}>
                 <div
-                  className="aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                  style={{
-                    backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
-                  }}
+                  className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
+                  // }}
                 ></div>
               </Link>
             </div>

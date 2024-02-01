@@ -7,10 +7,10 @@ import Link from "next/link";
 
 export const Logo = () => {
   return (
-    <Link className=" xs:h-12  lg:h-[34px]  z-20" href={"/"}>
+    <Link className=" z-20" href={"/"}>
       <img
-        className="w-full h-full "
-        src={`assets/images/logo.png`}
+        className=" w-[180px] h-full "
+        src={`assets/images/logo.svg`}
         alt="green_software"
       />
     </Link>

@@ -46,7 +46,7 @@ export const OurServiceSection = () => {
             </div>
             <div className="grid  grid-cols-1 lg:grid-cols-4">
               <Link href={"/services/ux-ui"}>
-                <div className="aspect-[3/4] pt-[50px] px-[80px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-gray-900 via-gray-800 to-transparent">
+                <div className="aspect-[3/4] pt-[50px] px-[40px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-gray-900 via-gray-800 to-transparent">
                   <div className="flex flex-col items-center gap-9">
                     <div className="w-[120px] h-[120px] p-5 bg-[#8080802a] rounded-[50%] flex items-center justify-center "></div>
                     <div className="flex flex-col items-center justify-center">
@@ -64,7 +64,7 @@ export const OurServiceSection = () => {
                 </div>
               </Link>
               <Link href={"/services/ux-ui"}>
-                <div className="aspect-[3/4] pt-[50px] px-[80px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-black via-black-800 to-transparent">
+                <div className="aspect-[3/4] pt-[50px] px-[40px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-black via-black-800 to-transparent">
                   <div className="flex flex-col items-center gap-9">
                     <div className="w-[120px] h-[120px] p-5 bg-[#8080802a] rounded-[50%] flex items-center justify-center "></div>
                     <div className="flex flex-col items-center justify-center">
@@ -82,7 +82,7 @@ export const OurServiceSection = () => {
                 </div>
               </Link>
               <Link href={"/services/ux-ui"}>
-                <div className="aspect-[3/4] pt-[50px] px-[80px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-gray-900 via-gray-800 to-transparent">
+                <div className="aspect-[3/4] pt-[50px] px-[40px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-gray-900 via-gray-800 to-transparent">
                   <div className="flex flex-col items-center gap-9">
                     <div className="w-[120px] h-[120px] p-5 bg-[#8080802a] rounded-[50%] flex items-center justify-center "></div>
                     <div className="flex flex-col items-center justify-center">
@@ -100,7 +100,7 @@ export const OurServiceSection = () => {
                 </div>
               </Link>
               <Link href={"/services/ux-ui"}>
-                <div className="aspect-[3/4] pt-[50px] px-[80px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-black via-black-800 to-transparent">
+                <div className="aspect-[3/4] pt-[50px] px-[40px] flex flex-col items-center justify-start gap-12 bg-gradient-to-b from-black via-black-800 to-transparent">
                   <div className="flex flex-col items-center gap-9">
                     <div className="w-[120px] h-[120px] p-5 bg-[#8080802a] rounded-[50%] flex items-center justify-center "></div>
                     <div className="flex flex-col items-center justify-center">

@@ -141,25 +141,25 @@ export const ServiceDetailSection = () => {
               </div>
               <div className="col-span-12 lg:col-span-3 flex flex-col gap-12">
                 <ul className="w-full p-10 flex flex-col gap-6 bg-[#111319]">
-                  <li className="text-[#A9AFC3]">
-                    <a href="">UI/UX and Brand</a>
+                  <li >
+                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/ui-ux-and-brand">UI/UX and Brand</a>
                   </li>
-                  <li className="text-[#A9AFC3]">
-                    <a href="">Game Design</a>
+                  <li >
+                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/game-design">Game Design</a>
                   </li>
                   <li className="text-[#fff]">
-                    <a className="text-[#fff]" href="">
+                    <a  className="text-[#fff]" href="">
                       App development
                     </a>
                   </li>
-                  <li className="text-[#A9AFC3]">
-                    <a href="">Web development</a>
+                  <li >
+                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/web-development">Web development</a>
                   </li>
-                  <li className="text-[#A9AFC3]">
-                    <a href="">Social Media</a>
+                  <li >
+                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/social-media">Social Media</a>
                   </li>
-                  <li className="text-[#A9AFC3]">
-                    <a href="">Graphic Design </a>
+                  <li >
+                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/graphic-design">Graphic Design </a>
                   </li>
                 </ul>
                 <div className="w-full p-10 flex flex-col gap-6 bg-[#000]">
