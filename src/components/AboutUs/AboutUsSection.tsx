@@ -51,9 +51,9 @@ export const AboutUsSection = () => {
                 </div>
                 <div className="w-full flex items-end justify-center">
                   <div className="w-2/3 lg:w-1/2 aspect-[1/1] rounded-[50%] border border-[#DBB070] flex flex-col justify-center items-center gap-4 ">
-                    <span className="text-[#fff] text-[28px] font-bold">9</span>
+                    <span className="text-[#fff] text-[28px] font-bold">2</span>
                     <span className="text-[22px] font-bold text-[#DBB070]">
-                      Years experience
+                      Game Famous
                     </span>
                   </div>
                 </div>
@@ -62,11 +62,9 @@ export const AboutUsSection = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
                 <div className="w-full flex items-center justify-center  order-2 lg:order-1">
                   <div className="w-2/3 lg:w-1/2 aspect-[1/1] rounded-[50%] border border-[#DBB070] flex flex-col justify-center items-center gap-4 ">
-                    <span className="text-[#fff] text-[28px] font-bold">
-                      354
-                    </span>
+                    <span className="text-[#fff] text-[28px] font-bold">9</span>
                     <span className="text-[22px] font-bold text-[#DBB070]">
-                      Successful projects
+                      Years experience
                     </span>
                   </div>
                 </div>
@@ -111,9 +109,11 @@ export const AboutUsSection = () => {
                 </div>
                 <div className="w-full flex items-center justify-center">
                   <div className="w-2/3 lg:w-1/2 aspect-[1/1] rounded-[50%] border border-[#DBB070] flex flex-col justify-center items-center gap-4 ">
-                    <span className="text-[#fff] text-[28px] font-bold">2</span>
+                    <span className="text-[#fff] text-[28px] font-bold">
+                      354
+                    </span>
                     <span className="text-[22px] font-bold text-[#DBB070]">
-                      Game Famous
+                      Successful projects
                     </span>
                   </div>
                 </div>
