@@ -28,7 +28,7 @@ export const Footer = () => {
           <span className="font-bold">Address</span>
           <ul>
             <li className="text-[#A9AFC3]  font-normal py-1">
-              174 Đường số 1, Bình Trị Đông A, Bình Tân
+              174 Đường số 1, Bình Trị Đông B, Bình Tân
             </li>
           </ul>
         </div>
