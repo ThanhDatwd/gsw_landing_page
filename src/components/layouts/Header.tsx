@@ -84,7 +84,7 @@ const Header = ({ headerStyle }: { headerStyle?: string }) => {
             </div>
           </div>
           <div className="flex justify-end items-center gap-14 ">
-            <span className="hidden lg:block text-[#fff]">0334586570</span>
+            <span className="hidden lg:block text-[#fff]">0375026694</span>
             <button className="hidden lg:block rounded-[50px]  py-[15px] px-[35px] border border-[#DBB070] text-[#fff]">
               Get quote
             </button>
