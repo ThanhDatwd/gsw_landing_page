@@ -35,7 +35,7 @@ export const FriendlyTeamSection = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-4">
-              <Link href={"cases/game"}>
+              <Link href={"/coming-soon"}>
                 <div
                   className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
                   // style={{
@@ -43,7 +43,7 @@ export const FriendlyTeamSection = () => {
                   // }}
                 ></div>
               </Link>
-              <Link href={"cases/game"}>
+              <Link href={"/coming-soon"}>
                 <div
                   className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
                   // style={{
@@ -51,7 +51,7 @@ export const FriendlyTeamSection = () => {
                   // }}
                 ></div>
               </Link>
-              <Link href={"cases/game"}>
+              <Link href={"/coming-soon"}>
                 <div
                   className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
                   // style={{
@@ -59,7 +59,7 @@ export const FriendlyTeamSection = () => {
                   // }}
                 ></div>
               </Link>
-              <Link href={"cases/game"}>
+              <Link href={"/coming-soon"}>
                 <div
                   className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
                   // style={{
