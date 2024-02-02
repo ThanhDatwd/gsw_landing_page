@@ -29,9 +29,11 @@ export const PortfolioSection = () => {
                 </div>
               </div>
               <div className="w-full lg:w-1/2 flex justify-end">
-                <div className="flex items-center gap-3 py-2 border-b border-b-[#DBB070] w-fit cursor-pointer">
-                  <span className="text-[#DBB070]">VIEW All CASES</span>
-                </div>
+                <Link href={"/cases"}>
+                  <div className="flex items-center gap-3 py-2 border-b border-b-[#DBB070] w-fit cursor-pointer">
+                    <span className="text-[#DBB070]">VIEW All CASES</span>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-4">

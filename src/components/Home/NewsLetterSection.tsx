@@ -21,9 +21,8 @@ export const NewsLetterSection = () => {
                     GET STARTED
                   </div>
                   <div className="flex flex-col gap-6">
-                    <h1 className=" flex flex-col font-bold md:text-[60px] 2xl:text-[64px] text-[#ffff] font-poppins">
-                      <span>Be Always </span>
-                      <span>In Touch</span>
+                    <h1 className=" flex flex-col font-bold text-[38px] lg:text-[56px] text-[#ffff] font-poppins">
+                      <span>Be Always In Touch </span>
                     </h1>
                     <div className="w-full">
                       <span className="md:text-[18px] 2xl:text-[22px] text-[#A9AFC3]">

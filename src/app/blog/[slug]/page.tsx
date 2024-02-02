@@ -1,7 +1,6 @@
 "use client";
 import { BlogDetailSection } from "@/components/Blog/BlogDetailSection";
-import { RelatedCaseSection } from "@/components/Service/RelatedCaseSection";
-import { ServiceDetailSection } from "@/components/Service/ServiceDetailSection";
+import { RecentBlogSection } from "@/components/Blog/RecentBlogSection";
 import { DefaultLayout } from "@/components/layouts/DefaultLayout";
 import { useTheme } from "@/hooks/useTheme";
 import { useEffect, useState } from "react";
@@ -34,7 +33,6 @@ export default function BlogDetailPage() {
       headerStyle={`${!isScroll && "bg-[transparent] py-4 shadow-none"}`}
     >
       <BlogDetailSection/>
-      <RelatedCaseSection/>
     </DefaultLayout>
   );
 }

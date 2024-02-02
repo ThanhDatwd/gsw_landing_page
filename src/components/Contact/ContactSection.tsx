@@ -11,7 +11,7 @@ export const ContactSection = () => {
   return (
     <>
       <div className="flex ">
-        <div className="relative h-full w-full  pt-[80px]  bg-[#111319] ">
+        <div className="relative h-full w-full  pt-20 pb-10 lg:pb-20  bg-[#111319] ">
           <div className="w-full flex items-center justify-end py-6 xs:px-5 lg:px-14">
             <div className="flex items-center gap-5 text-[#A9AFC3]">
               <div className="hidden lg:block w-[40px] h-[1px] bg-[#A9AFC3]"></div>
@@ -71,7 +71,7 @@ export const ContactSection = () => {
                     <div className="w-[60px] h-[1px] bg-[#A9AFC3]"></div> CONTACT US
                   </div>
                   <div className="flex flex-col gap-2">
-                    <h1 className=" flex flex-col font-bold md:text-[60px] 2xl:text-[64px] text-[#ffff] font-poppins">
+                    <h1 className=" flex flex-col font-bold text-[38px] lg:text-[56px] text-[#ffff] font-poppins">
                       Send a message
                     </h1>
                     <div className="w-full">

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { DefaultLayout } from "@/components/layouts/DefaultLayout";
@@ -12,18 +13,12 @@ export default function ComingSoon() {
   const { t } = useTranslation();
   return (
     <DefaultLayout
-      pageTitle="Coming Soon"
-      containerStyle="bg-white dark:bg-[#222327]"
-      headerStyle={"bg-[transparent]"}
+    pageTitle="Dashboard"
+    containerStyle="bg-[#000000] dark:bg-[#000000]"
     >
       <LazyLoad once={true} placeholder={<Loader />}>
         <div
-          className="relative flex flex-col gap-[22px] xs:items-center justify-center text-[40px] w-full h-[100vh] xs:px-4 xs:py-8 xs:mt-0 bg-cover "
-          style={{
-            backgroundImage: `url('assets/images/background.jpg')`,
-            backgroundPosition: "center",
-          }}
-        >
+          className="relative flex flex-col gap-[22px] xs:items-center justify-center text-[40px] w-full h-[100vh] xs:px-4 xs:py-8 xs:mt-0 bg-cover ">
           <h2 className="z-10 xs:text-[32px] md:text-[64px] font-semibold text-white">
             COMING SOON!
           </h2>

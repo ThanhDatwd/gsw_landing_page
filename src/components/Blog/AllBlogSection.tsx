@@ -42,7 +42,7 @@ export const AllBlogSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <Link href={"/blog/slug"}>
                 <div
-                  className="relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
+                  className=" bg-[#00B838] relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
                   // style={{
                   //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
                   // }}
@@ -57,7 +57,7 @@ export const AllBlogSection = () => {
                         Apr 06, 2020
                       </span>
                     </div>
-                    <h5 className="m-0 text-[22px] font-medium text-white pt-6">
+                    <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
                       Best 20 useful tools for people who like to spend time in
                       drawing
                     </h5>
@@ -66,7 +66,7 @@ export const AllBlogSection = () => {
               </Link>
               <Link href={"/blog/slug"}>
                 <div
-                  className="relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
+                  className=" bg-[#7DC70E] relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
                   // style={{
                   //   backgroundImage: `url('${getStaticURL()}/assets/images/game_2.png')`,
                   // }}
@@ -81,7 +81,7 @@ export const AllBlogSection = () => {
                         Apr 06, 2020
                       </span>
                     </div>
-                    <h5 className="m-0 text-[22px] font-medium text-white pt-6">
+                    <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
                       Best 20 useful tools for people who like to spend time in
                       drawing
                     </h5>
@@ -90,7 +90,7 @@ export const AllBlogSection = () => {
               </Link>
               <Link href={"/blog/slug"}>
                 <div
-                  className="relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
+                  className=" bg-[#00B838] relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
                   // style={{
                   //   backgroundImage: `url('${getStaticURL()}/assets/images/game_3.png')`,
                   // }}
@@ -105,7 +105,7 @@ export const AllBlogSection = () => {
                         Apr 06, 2020
                       </span>
                     </div>
-                    <h5 className="m-0 text-[22px] font-medium text-white pt-6">
+                    <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
                       Best 20 useful tools for people who like to spend time in
                       drawing
                     </h5>
@@ -114,7 +114,7 @@ export const AllBlogSection = () => {
               </Link>
               <Link href={"/blog/slug"}>
                 <div
-                  className="relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
+                  className="bg-[#7DC70E] relative group aspect-[1/1] bg-cover bg-center bg-no-repeat  duration-300 ease-in-out "
                   // style={{
                   //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
                   // }}
@@ -129,7 +129,7 @@ export const AllBlogSection = () => {
                         Apr 06, 2020
                       </span>
                     </div>
-                    <h5 className="m-0 text-[22px] font-medium text-white pt-6">
+                    <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
                       Best 20 useful tools for people who like to spend time in
                       drawing
                     </h5>

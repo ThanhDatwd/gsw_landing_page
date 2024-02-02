@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { getStaticURL } from "@/utils/constants";
 import { url } from "inspector";
+import Link from "next/link";
 import React from "react";
 
 export const RelatedCaseSection = () => {
@@ -28,36 +29,46 @@ export const RelatedCaseSection = () => {
                 </div>
               </div>
               <div className="w-full lg:w-1/2 flex justify-end">
-                <div className="flex items-center gap-3 py-2 border-b border-b-[#DBB070] w-fit cursor-pointer">
-                  <span className="text-[#DBB070]">VIEW ALL CASES</span>
-                </div>
+                <Link href={"/cases"}>
+                  <div className="flex items-center gap-3 py-2 border-b border-b-[#DBB070] w-fit cursor-pointer">
+                    <span className="text-[#DBB070]">VIEW ALL CASES</span>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-4">
-              <div
-                className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                // style={{
-                //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
-                // }}
-              ></div>
-              <div
-                className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                // style={{
-                //   backgroundImage: `url('${getStaticURL()}/assets/images/game_3.png')`,
-                // }}
-              ></div>
-              <div
-                className=" bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                // style={{
-                //   backgroundImage: `url('${getStaticURL()}/assets/images/game_2.png')`,
-                // }}
-              ></div>
-              <div
-                className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
-                // style={{
-                //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
-                // }}
-              ></div>
+              <Link href={"cases/game"}>
+                <div
+                  className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
+                  // }}
+                ></div>
+              </Link>
+              <Link href={"cases/game"}>
+                <div
+                  className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_3.png')`,
+                  // }}
+                ></div>
+              </Link>
+              <Link href={"cases/game"}>
+                <div
+                  className="bg-[#7DC70E] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_2.png')`,
+                  // }}
+                ></div>
+              </Link>
+              <Link href={"cases/game"}>
+                <div
+                  className="bg-[#00B838] aspect-[3/4] bg-cover bg-center bg-no-repeat lg:opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out hover:translate-y-[-10px] pt-[50px] px-[80px]"
+                  // style={{
+                  //   backgroundImage: `url('${getStaticURL()}/assets/images/game_1.png')`,
+                  // }}
+                ></div>
+              </Link>
             </div>
           </div>
         </div>
