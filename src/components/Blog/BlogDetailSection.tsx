@@ -45,10 +45,11 @@ export const BlogDetailSection = () => {
             <div className="grid grid-cols-12 gap-8">
               <div className="col-span-12 lg:col-span-9">
                 <div className=" flex flex-col gap-10">
-                  <img
+                  {/* <img
                     src={`${getStaticURL()}/assets/images/app_service.png`}
                     alt=""
-                  />
+                  /> */}
+                  <div className="w-full aspect-video bg-[#7DC70E]"></div>
                   <div className="text-[#A9AFC3]">
                     <span>
                       Mobile app development is the act or process by which a

@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export const Logo = () => {
   return (
-    <Link className=" z-20" href={"/"}>
+    <Link className="z-20" href={"/"}>
       <img
-        className=" w-[180px] h-full "
+        className="w-[180px] h-full "
         src={`assets/images/logo.svg`}
         alt="green_software"
       />
