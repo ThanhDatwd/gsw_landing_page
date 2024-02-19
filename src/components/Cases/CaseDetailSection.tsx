@@ -40,7 +40,7 @@ export const CaseDetailSection = () => {
               </div>
             </div>
             <div className="flex flex-col gap-6">
-              <Swiper
+              {/* <Swiper
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 loop={true}
@@ -53,18 +53,18 @@ export const CaseDetailSection = () => {
                 }}
                 allowTouchMove={false}
               >
-                <SwiperSlide>
+                <SwiperSlide> */}
                   <div
                     className="aspect-video w-full bg-cover bg-center bg-no-repeat duration-300 ease-in-out "
                     style={{
                       backgroundImage: `url('${getStaticURL()}/assets/images/plant_and_undead_banner.png')`,
                     }}
                   ></div>
-                </SwiperSlide>
+                {/* </SwiperSlide>
                 <SwiperSlide>
                   <div className="aspect-video w-full bg-cover bg-center bg-no-repeat duration-300 ease-in-out bg-[red] "></div>
                 </SwiperSlide>
-              </Swiper>
+              </Swiper> */}
               <div className="flex justify-between">
                 <button
                   ref={prevRef}

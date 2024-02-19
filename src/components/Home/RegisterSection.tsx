@@ -6,12 +6,15 @@ export const RegisterSection = () => {
         <div className="relative w-full min-h-[1024px]">
           <div className="absolute w-full h-full grid grid-cols-12">
             <div className=" hidden lg:block col-span-6 bg-[#191c26]"></div>
-            <div className=" hidden lg:flex  col-span-6 py-[96px] px-[86px]  items-center justify-center  bg-[#090A0D]">
-              <img 
-                className="w-full h-full"
-                // src="assets/images/tho.png"
+            <div className=" hidden lg:flex  col-span-6 py-[56px] px-[46px]  items-center justify-center  bg-[#090A0D]">
+              {/* <img 
+                className="w-full"
+                src="assets/images/wolf.svg"
                 alt=""
-              />
+              /> */}
+              <div className="w-full h-full bg-contain bg-center bg-no-repeat"  style={{
+                backgroundImage: `url('assets/images/wolf.svg')`,
+              }}></div>
             </div>
           </div>
           <div className="relative h-full w-[1080px]  py-10 lg:py-0 max-w-full  mx-auto  flex items-center ">
@@ -28,7 +31,7 @@ export const RegisterSection = () => {
                       <span>Get a Free</span>
                       <span>Consultation</span>
                     </h1>
-                    <div className="w-2/3">
+                    <div className="w-full lg:w-2/3">
                       <span className="md:text-[18px] 2xl:text-[22px] text-[#A9AFC3] ">
                         We always try to implement our creative ideas at the
                         highest level. Tell us about your project and we will
@@ -63,7 +66,7 @@ export const RegisterSection = () => {
                 </div>
               </div>
               <div className="block lg:hidden col-span-12 lg:col-span-4  p-5 lg:p-0 ">
-                <img className="w-full" src="assets/images/tho.png" alt="" />
+                <img className="w-full" src="assets/images/wolf.svg" alt="" />
               </div>
             </div>
           </div>

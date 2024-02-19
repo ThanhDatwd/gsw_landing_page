@@ -48,10 +48,14 @@ export const NewsLetterSection = () => {
               </div>
               <div className=" col-span-12 lg:col-span-6  py-10 lg:py-0 lg:pl-10 text-[#fff] flex flex-col gap-10">
                 <div className="flex gap-10">
-                  <img className="w-[70px] h-[70px] bg-white rounded-[50%]" src={`${getStaticURL()}/assets/images/signature.png`} alt="" />
+                  <img
+                    className="w-[70px] h-[70px] bg-white rounded-[50%]"
+                    src={`${getStaticURL()}/assets/images/signature.png`}
+                    alt=""
+                  />
                   <div className="flex flex-col">
                     <span className="text-[22px] font-medium">
-                      Huỳnh Tân Khoa 
+                      Huỳnh Tân Khoa
                     </span>
                     <span className="text-[#A9AFC3]">
                       Founder at Green Software
@@ -64,7 +68,9 @@ export const NewsLetterSection = () => {
                     world!
                   </span>
                   <div className="flex justify-between items-end">
-                    <img src={`${getStaticURL()}/assets/images/signature.png`} alt="" />
+                    <div>
+                      {/* <img src={`${getStaticURL()}/assets/images/signature.png`} alt="" /> */}
+                    </div>
                     <QuoteIcon />
                   </div>
                 </div>

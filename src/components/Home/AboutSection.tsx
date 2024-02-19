@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { getStaticURL } from "@/utils/constants";
 import { url } from "inspector";
 import React from "react";
@@ -11,9 +12,9 @@ export const AboutSection = () => {
         >
           <div className=" absolute w-full top-0 left-0 h-full  grid grid-cols-12 text-[#fff] items-center ">
             <div
-              className="h-full col-span-12 lg:col-span-7 bg-cover bg-center bg-no-repeat brightness-50 opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out"
+              className="h-full col-span-12 lg:col-span-7 bg-contain bg-center bg-no-repeat brightness-50 opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out"
               style={{
-                backgroundImage: `url('${getStaticURL()}/assets/images/banner_about.png')`,
+                backgroundImage: `url('assets/images/wolf.svg')`,
               }}
             ></div>
             {/* <div className="col-span-5 bg-[#111319]  h-full flex items-center justify-center">

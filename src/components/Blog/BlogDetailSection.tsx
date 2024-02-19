@@ -7,6 +7,7 @@ import React from "react";
 import { RecentBlogSection } from "./RecentBlogSection";
 import { QuoteIcon } from "@/assets/icons/QuoteIcon";
 import { SearchIcon } from "@/assets/icons/SearchIcon";
+import { CommentBlogSection } from "./CommentBlogSection";
 
 export const BlogDetailSection = () => {
   return (
@@ -162,6 +163,11 @@ export const BlogDetailSection = () => {
                   <RecentBlogSection />
                 </div>
                 {/* COMMENT */}
+                <div className="mt-20">
+                <CommentBlogSection/>
+                </div>
+                {/* COMMENT */}
+
                 <div className="flex flex-col gap-2 mt-20">
                   <div className="flex flex-col gap-2">
                     <h1 className=" flex flex-col font-bold text-[30px] text-[#ffff] font-poppins">
