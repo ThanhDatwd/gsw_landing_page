@@ -1,3 +1,4 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import { SearchIcon } from "@/assets/icons/SearchIcon";
 import { getStaticURL } from "@/utils/constants";
