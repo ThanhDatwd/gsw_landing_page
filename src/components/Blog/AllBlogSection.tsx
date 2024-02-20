@@ -54,7 +54,7 @@ export const AllBlogSection = () => {
                         Corporate
                       </div>
                       <span className="text-[14px] text-[#A9AFC3]">
-                        Apr 06, 2020
+                        Apr 06, 2023
                       </span>
                     </div>
                     <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
@@ -78,7 +78,7 @@ export const AllBlogSection = () => {
                         Corporate
                       </div>
                       <span className="text-[14px] text-[#A9AFC3]">
-                        Apr 06, 2020
+                        Apr 06, 2023
                       </span>
                     </div>
                     <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
@@ -102,7 +102,7 @@ export const AllBlogSection = () => {
                         Corporate
                       </div>
                       <span className="text-[14px] text-[#A9AFC3]">
-                        Apr 06, 2020
+                        Apr 06, 2023
                       </span>
                     </div>
                     <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">
@@ -126,7 +126,7 @@ export const AllBlogSection = () => {
                         Corporate
                       </div>
                       <span className="text-[14px] text-[#A9AFC3]">
-                        Apr 06, 2020
+                        Apr 06, 2023
                       </span>
                     </div>
                     <h5 className="m-0 text-[22px] font-medium text-white pt-6 line-clamp-2">

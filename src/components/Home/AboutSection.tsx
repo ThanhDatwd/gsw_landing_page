@@ -6,23 +6,24 @@ import React from "react";
 export const AboutSection = () => {
   return (
     <>
-      <div className="flex  ">
+      <div className="flex group">
         <div
           className=" relative w-full py-20 lg:p-0 lg:min-h-[1024px] "
         >
-          <div className=" absolute w-full top-0 left-0 h-full  grid grid-cols-12 text-[#fff] items-center ">
+          <div className="absolute w-full top-0 left-0 h-full  grid grid-cols-12 text-[#fff] items-center ">
             <div
-              className="h-full col-span-12 lg:col-span-7 bg-contain bg-center bg-no-repeat brightness-50 opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out"
+              className=" lg:hidden h-full col-span-12 lg:col-span-7 bg-contain bg-center bg-no-repeat  opacity-[0.5] group-hover:opacity-[1] duration-300 ease-in-out"
               style={{
-                backgroundImage: `url('assets/images/wolf.svg')`,
+                backgroundImage: `url('assets/images/banner_about.svg')`,
               }}
             ></div>
-            {/* <div className="col-span-5 bg-[#111319]  h-full flex items-center justify-center">
-              {" "}
-            </div> */}
           </div>
           <div className=" relative w-[1080px] max-w-full px-5  mx-auto h-full  grid grid-cols-12 text-[#fff] items-center  ">
-            <div className="col-span-6 h-1 hidden lg:flex "></div>
+            <div className="col-span-6 h-full hidden lg:flex bg-contain bg-center bg-no-repeat  opacity-[0.5] hover:opacity-[1] duration-300 ease-in-out"
+              style={{
+                backgroundImage: `url('assets/images/banner_about.svg')`,
+              }}
+            ></div>
             <div className="col-span-12 lg:col-span-6  h-full flex items-center justify-center">
               <div className="flex flex-col gap-8 w-full">
                 <div className="flex items-center gap-6 text-[#A9AFC3]">

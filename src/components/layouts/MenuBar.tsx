@@ -128,7 +128,8 @@ export const MenuBar = ({ onClose }: { onClose: any }) => {
                 <ul className="mb-2 flex flex-col xs:col-span-12 lg:col-span-4">
                   <li className="overflow-hidden xs:mt-0 xs:py-[10px] lg:mt-[30px] lg:py-0 ">
                     <Link
-                      href={"/coming-soon"}
+                      href={"https://www.facebook.com/greensoftware.asia"}
+                      target="_blank"
                       className="animated-show-from-b flex cursor-custom items-end justify-between text-[#fff] hover:text-[#DBB070]"
                     >
                       <span className="text-[12px] font-bold  duration-300 ease-linear">
@@ -139,29 +140,21 @@ export const MenuBar = ({ onClose }: { onClose: any }) => {
                   </li>
                   <li className="overflow-hidden xs:mt-0 xs:py-[10px] lg:mt-[30px] lg:py-0 ">
                     <Link
-                      href={"/coming-soon"}
+                      href={"https://www.tiktok.com/@greensoftware.asia"}
+                      target="_blank"
                       className="animated-show-from-b flex cursor-custom items-end justify-between text-[#fff] hover:text-[#DBB070]"
                     >
                       <span className="text-[12px] font-bold  duration-300 ease-linear">
-                        VIEW ON INSTAGRAM
+                        VIEW ON TIKTOK
                       </span>
                       <DirectIcon color="#DBB070" />
                     </Link>
                   </li>
                   <li className="overflow-hidden xs:mt-0 xs:py-[10px] lg:mt-[30px] lg:py-0 ">
                     <Link
-                      href={"/coming-soon"}
-                      className="animated-show-from-b flex cursor-custom items-end justify-between text-[#fff] hover:text-[#DBB070]"
-                    >
-                      <span className="text-[12px] font-bold  duration-300 ease-linear">
-                        VIEW ON LINKED
-                      </span>
-                      <DirectIcon color="#DBB070" />
-                    </Link>
-                  </li>
-                  <li className="overflow-hidden xs:mt-0 xs:py-[10px] lg:mt-[30px] lg:py-0 ">
-                    <Link
-                      href={"/coming-soon"}
+                    
+                      href={"https://t.me/greensoftwarechat"}
+                      target="_blank"
                       style={{ animationDelay: "150ms" }}
                       className="animated-show-from-b flex cursor-custom items-end justify-between text-[#fff] hover:text-[#DBB070]"
                     >
@@ -204,13 +197,13 @@ export const MenuBar = ({ onClose }: { onClose: any }) => {
                 <div className=" w-full border-b-[#000]  pb-[30px] xs:mb-[24px] xs:border-b lg:hidden"></div>
                 <div className="flex items-center xs:flex-col xs:gap-0 lg:flex-row lg:gap-6">
                   <Link
-                    href={""}
+                    href={"/coming-soon"}
                     className="cursor-custom py-[10px] text-[10px] font-bold text-[#fff] hover:text-[#DBB070]"
                   >
                     TERM & CONDITIONS
                   </Link>
                   <Link
-                    href={""}
+                    href={"/coming-soon"}
                     className="cursor-custom py-[10px] text-[10px] font-bold text-[#fff]  hover:text-[#DBB070]"
                   >
                     PRIVACY POLICY

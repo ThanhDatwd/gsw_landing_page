@@ -5,8 +5,8 @@ export const HeroSection = () => {
       <div className="flex lg:min-h-[1024px]  ">
         <div className="relative w-full  ">
           <div className="absolute w-full h-full grid grid-cols-12">
-            <div className="col-span-6 bg-[#111319]"></div>
             <div className="col-span-6 bg-[#090A0D]"></div>
+            <div className="col-span-6 bg-[#111319]"></div>
           </div>
           <div className="absolute "></div>
           <div className="relative h-full  pt-[150px] lg:pt-0  w-[1080px] max-w-[100%] px-5 mx-auto flex items-center justify-center" >
@@ -30,8 +30,8 @@ export const HeroSection = () => {
                 </div>
               </div>
               {/* translate-x-[-25px] */}
-              <div className="col-span-12 lg:col-span-3 lg:translate-x-[0px] w-full h-full bg-[#7DC70E]"> 
-                {/* <img className="w-full lg:scale-150" src="assets/images/robot.png" alt="" /> */}
+              <div className="col-span-12 lg:col-span-3 lg:translate-x-[0px] w-full h-full "> 
+                <img className="w-full " src="assets/images/wolf.svg" alt="" />
               </div>
             </div>
             

@@ -7,6 +7,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ShareIcon } from "@/assets/icons/ShareIcon";
+import { ArrowRightIcon } from "@/assets/icons/ArrowRightIcon";
 
 export const CaseDetailSection = () => {
   const prevRef = useRef(null);
@@ -39,10 +40,10 @@ export const CaseDetailSection = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-6">
-              {/* <Swiper
+            <div className="flex flex-col gap-6 ">
+              <Swiper
                 modules={[Pagination, Navigation]}
-                className="mySwiper"
+                className="mySwiper group"
                 loop={true}
                 pagination={{
                   clickable: true,
@@ -53,27 +54,39 @@ export const CaseDetailSection = () => {
                 }}
                 allowTouchMove={false}
               >
-                <SwiperSlide> */}
+                <SwiperSlide>
                   <div
                     className="aspect-video w-full bg-cover bg-center bg-no-repeat duration-300 ease-in-out "
                     style={{
                       backgroundImage: `url('${getStaticURL()}/assets/images/plant_and_undead_banner.png')`,
                     }}
                   ></div>
-                {/* </SwiperSlide>
+                </SwiperSlide>
                 <SwiperSlide>
                   <div className="aspect-video w-full bg-cover bg-center bg-no-repeat duration-300 ease-in-out bg-[red] "></div>
                 </SwiperSlide>
-              </Swiper> */}
-              <div className="flex justify-between">
+                <button
+                  ref={nextRef}
+                  className="opacity-0 group-hover:opacity-[1] duration-300 ease-in-out absolute scale-[3] right-[10px] top-[50%] z-10 -translate-y-[50%] rotate-180 "
+                >
+                  <ArrowRightIcon color="#6B0E01" />
+                </button>
                 <button
                   ref={prevRef}
+                  className="opacity-0 group-hover:opacity-[1] duration-300 ease-in-out absolute scale-[3]  left-[10px] top-[50%] z-10 -translate-y-[50%]  "
+                >
+                  <ArrowRightIcon color="#6B0E01" />{" "}
+                </button>
+              </Swiper>
+              <div className="flex justify-between">
+                <button
+                  // ref={prevRef}
                   className="w-fit py-3 pr-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase "
                 >
                   Prev
                 </button>
                 <button
-                  ref={nextRef}
+                  // ref={nextRef}
                   className="w-fit py-3 pl-3 border-b border-b-[#DBB070] text-[#DBB070] uppercase  "
                 >
                   Next

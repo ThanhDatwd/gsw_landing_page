@@ -5,8 +5,8 @@ export const RegisterSection = () => {
       <div className="flex ">
         <div className="relative w-full min-h-[1024px]">
           <div className="absolute w-full h-full grid grid-cols-12">
-            <div className=" hidden lg:block col-span-6 bg-[#191c26]"></div>
-            <div className=" hidden lg:flex  col-span-6 py-[56px] px-[46px]  items-center justify-center  bg-[#090A0D]">
+            <div className=" hidden lg:block col-span-6 bg-[#090A0D]"></div>
+            <div className=" hidden lg:flex  col-span-6 py-[56px] px-[46px]  items-center justify-center  bg-[#191c26]">
               {/* <img 
                 className="w-full"
                 src="assets/images/wolf.svg"
