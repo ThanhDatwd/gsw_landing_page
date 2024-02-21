@@ -287,15 +287,30 @@ export const BlogDetailSection = () => {
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">FB</span>
+                      <Link
+                        href={"https://www.facebook.com/greensoftware.asia"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">FB</span>
+                      </Link>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">LIN</span>
+                      <Link
+                        href={"https://www.tiktok.com/@greensoftware.asia"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">TT</span>
+                      </Link>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">INST</span>
+                      <Link
+                        href={"https://t.me/greensoftwarechat"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">TG</span>
+                      </Link>
                     </div>
                   </div>
                 </div>

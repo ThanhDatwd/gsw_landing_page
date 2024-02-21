@@ -2,6 +2,7 @@
 import { SendIcon } from "@/assets/icons/SendIcon";
 import { getStaticURL } from "@/utils/constants";
 import { url } from "inspector";
+import Link from "next/link";
 import React from "react";
 
 export const ServiceDetailSection = () => {
@@ -141,25 +142,50 @@ export const ServiceDetailSection = () => {
               </div>
               <div className="col-span-12 lg:col-span-3 flex flex-col gap-12">
                 <ul className="w-full p-10 flex flex-col gap-6 bg-[#111319]">
-                  <li >
-                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/ui-ux-and-brand">UI/UX and Brand</a>
+                  <li>
+                    <a
+                      className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out"
+                      href="/services/ui-ux-and-brand"
+                    >
+                      UI/UX and Brand
+                    </a>
                   </li>
-                  <li >
-                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/game-design">Game Design</a>
+                  <li>
+                    <a
+                      className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out"
+                      href="/services/game-design"
+                    >
+                      Game Design
+                    </a>
                   </li>
                   <li className="text-[#fff]">
-                    <a  className="text-[#fff]" href="">
+                    <a className="text-[#fff]" href="">
                       App development
                     </a>
                   </li>
-                  <li >
-                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/web-development">Web development</a>
+                  <li>
+                    <a
+                      className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out"
+                      href="/services/web-development"
+                    >
+                      Web development
+                    </a>
                   </li>
-                  <li >
-                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/social-media">Social Media</a>
+                  <li>
+                    <a
+                      className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out"
+                      href="/services/social-media"
+                    >
+                      Social Media
+                    </a>
                   </li>
-                  <li >
-                    <a className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out" href="/services/graphic-design">Graphic Design </a>
+                  <li>
+                    <a
+                      className="text-[#A9AFC3] hover:text-[#fff] duration-200 ease-in-out"
+                      href="/services/graphic-design"
+                    >
+                      Graphic Design{" "}
+                    </a>
                   </li>
                 </ul>
                 <div className="w-full p-10 flex flex-col gap-6 bg-[#000]">
@@ -189,15 +215,30 @@ export const ServiceDetailSection = () => {
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">FB</span>
+                      <Link
+                        href={"https://www.facebook.com/greensoftware.asia"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">FB</span>
+                      </Link>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">LIN</span>
+                      <Link
+                        href={"https://www.tiktok.com/@greensoftware.asia"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">TT</span>
+                      </Link>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-[5px] h-[5px] rounded-[50%] bg-[#DBB070]"></div>
-                      <span className="text-[#A9AFC3]">INST</span>
+                      <Link
+                        href={"https://t.me/greensoftwarechat"}
+                        target="_blank"
+                      >
+                        <span className="text-[#A9AFC3]">TG</span>
+                      </Link>
                     </div>
                   </div>
                 </div>
