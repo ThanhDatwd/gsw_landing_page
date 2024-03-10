@@ -46,6 +46,7 @@ export default function Home() {
       <PortfolioSection/>
       <RecentPostSection/>
       <NewsLetterSection/>
+      xin chào
     </DefaultLayout>
   );
 }
